@@ -10,7 +10,7 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: mvn jetty
 
     steps:
     - uses: actions/checkout@master
@@ -21,7 +21,8 @@ jobs:
         java-version: '11'
 
     - name: Build with Maven
-      run: mvn jetty:run
+      run: mvn clean install
+      
 
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v2
