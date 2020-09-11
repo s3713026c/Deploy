@@ -46,8 +46,8 @@ public class AppConfig extends WebMvcConfigurerAdapter {
 
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/data");
-        dataSource.setUsername("root");
+        dataSource.setUrl("jdbc:mysql://bookingdoctor13.mysql.database.azure.com:3306/data?serverTimezone=UTC");
+        dataSource.setUsername("sept13@bookingdoctor13");
         dataSource.setPassword("Rm!t123sept");
 
         sessionFactoryBean.setDataSource(dataSource);

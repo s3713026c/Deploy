@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="data@35.221.218.43" uuid="85ff0ce0-c841-4ea6-879a-e49aa23c2d97">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://35.221.218.43:3306/data</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="data@bookingdoctor13.mysql.database.azure.com" uuid="a2f3dc39-9f74-481f-8ddb-2d451c0ae205">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://bookingdoctor13.mysql.database.azure.com:3306/data?serverTimezone=UTC</jdbc-url>
+    </data-source>
+  </component>
+</project>
